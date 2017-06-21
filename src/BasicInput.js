@@ -6,7 +6,9 @@ export default {
     },
     inputClass: {
       type: Object,
-      default: () => ({})
+      default: function () {
+          return {}
+      }
     },
     value: String
   }
